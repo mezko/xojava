@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #00D3B8;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xo1.login.LoginController">
+    <stylesheets>
+        <URL value="@login.css" />
+    </stylesheets>
+   <children>
+      <ImageView fitHeight="119.0" fitWidth="126.0" layoutX="237.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/logo.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="loginname" layoutX="78.0" layoutY="211.0" prefHeight="25.0" prefWidth="452.0" />
+      <Button layoutX="78.0" layoutY="250.0" mnemonicParsing="false" onAction="#login_fun" prefHeight="25.0" prefWidth="452.0" style="-fx-background-color: #fff;" text="Login" textFill="#00dea9" />
+      <ImageView fitHeight="25.0" fitWidth="31.0" layoutX="136.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/forward.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

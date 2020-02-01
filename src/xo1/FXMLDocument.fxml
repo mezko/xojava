@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xo1.FXMLDocumentController">
+   <children>
+      <Line endX="197.0" layoutX="123.0" layoutY="70.0" startX="-123.0" />
+      <Line endX="197.0" layoutX="123.0" layoutY="134.0" startX="-123.0" />
+      <Line endX="-21.5" endY="150.2928924560547" layoutX="126.0" layoutY="46.0" startX="-21.5" startY="-43.0" />
+      <Line endX="-21.5" endY="150.2928924560547" layoutX="242.0" layoutY="49.0" startX="-21.5" startY="-50.0" />
+      <Button fx:id="btn2" layoutX="106.0" layoutY="4.0" mnemonicParsing="false" onAction="#setBtn2" prefHeight="63.0" prefWidth="112.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn1" layoutX="2.0" layoutY="4.0" mnemonicParsing="false" onAction="#setBtn1" prefHeight="63.0" prefWidth="98.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn3" layoutX="221.0" layoutY="4.0" mnemonicParsing="false" onAction="#setBtn3" prefHeight="63.0" prefWidth="98.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn6" layoutX="221.0" layoutY="73.0" mnemonicParsing="false" onAction="#setBtn6" prefHeight="57.0" prefWidth="98.0" />
+      <Button fx:id="btn9" layoutX="222.0" layoutY="136.0" mnemonicParsing="false" onAction="#setBtn9" prefHeight="63.0" prefWidth="98.0" />
+      <Button fx:id="btn5" layoutX="106.0" layoutY="73.0" mnemonicParsing="false" onAction="#setBtn5" prefHeight="57.0" prefWidth="112.0" />
+      <Button fx:id="btn8" layoutX="106.0" layoutY="135.0" mnemonicParsing="false" onAction="#setBtn8" prefHeight="63.0" prefWidth="112.0" />
+      <Button fx:id="btn4" layoutX="4.0" layoutY="74.0" mnemonicParsing="false" onAction="#setBtn4" prefHeight="57.0" prefWidth="98.0" />
+      <Button fx:id="btn7" layoutX="5.0" layoutY="135.0" mnemonicParsing="false" onAction="#setBtn7" prefHeight="63.0" prefWidth="98.0" />
+   </children>
+</AnchorPane>
